@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=the bright moon.X
+PROJECTNAME=the_bright_moon.X
 
 # Active Configuration
 DEFAULTCONF=default

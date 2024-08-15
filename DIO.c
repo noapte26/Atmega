@@ -196,28 +196,28 @@ void setPIND(int pinNUM, int status){
             break;
     }
 }
-int readPORTA(){
+char readPORTA(){
     return PINA;
 }
-int readPORTB(){
+char readPORTB(){
     return PINB;
 }
-int readPORTC(){
+char readPORTC(){
     return PINC;
 }
-int readPORTD(){
+char readPORTD(){
     return PIND;
 }
-int readPINA(int pinNum){
-    return (PORTA & (1<<pinNum));
+char readPINA(int pinNum){
+    return (PINA & (1<<pinNum));
 }
-int readPINB(int pinNum){
-    return (PORTB & (1<<pinNum));
+char readPINB(int pinNum){
+    return (PINB & (1<<pinNum));
 }
-int readPINC(int pinNum){
-    return (PORTC & (1<<pinNum));
+char readPINC(int pinNum){
+    return (PINC & (1<<pinNum));
 }
-int readPIND(int pinNum){
-    return (PORTD & (1<<pinNum));
+char readPIND(int pinNum){
+    return (PIND & (1<<pinNum));
 }
 

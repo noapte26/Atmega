@@ -7,6 +7,11 @@
       <itemPath>DIO.h</itemPath>
       <itemPath>buttons.h</itemPath>
       <itemPath>LEDs.h</itemPath>
+      <itemPath>kpad.h</itemPath>
+      <itemPath>LCD.h</itemPath>
+      <itemPath>LCD4BIT.h</itemPath>
+      <itemPath>output_objects.h</itemPath>
+      <itemPath>check_password.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -24,6 +29,11 @@
       <itemPath>DIO.c</itemPath>
       <itemPath>LEDs.c</itemPath>
       <itemPath>buttons.c</itemPath>
+      <itemPath>kpad.c</itemPath>
+      <itemPath>LCD.c</itemPath>
+      <itemPath>LCD4BIT.c</itemPath>
+      <itemPath>output_devices.c</itemPath>
+      <itemPath>check_password.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>

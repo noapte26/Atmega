@@ -11,7 +11,7 @@ build/default/production/buttons.o.d build/default/production/buttons.o: \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\portpins.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\common.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\fuse.h \
- c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\lock.h \
+ c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\lock.h DIO.h \
  buttons.h
 
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\io.h:
@@ -39,5 +39,7 @@ c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\common.h:
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\fuse.h:
 
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\lock.h:
+
+DIO.h:
 
 buttons.h:

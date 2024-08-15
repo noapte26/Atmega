@@ -71,15 +71,15 @@ void setPINB(int pinNUM, int status);
 void setPINC(int pinNUM, int status);
 void setPIND(int pinNUM, int status);
 
-int readPORTA();     //FOR REDING THE 8-BITS OF THE PORT
-int readPORTB();
-int readPORTC();
-int readPORTD();
+char readPORTA();     //FOR REDING THE 8-BITS OF THE PORT
+char readPORTB();
+char readPORTC();
+char readPORTD();
 
-int readPINA(int pinNum);    //FOR READING ONE PIN IN THE PORT
-int readPINB(int pinNum);
-int readPINC(int pinNum);
-int readPIND(int pinNum);
+char readPINA(int pinNum);    //FOR READING ONE PIN IN THE PORT
+char readPINB(int pinNum);
+char readPINC(int pinNum);
+char readPIND(int pinNum);
 
 #endif	/* DIO_H */
 

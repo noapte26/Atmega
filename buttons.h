@@ -11,21 +11,15 @@
  
 #include <avr/io.h>
 
+#define BTN0 PB0
+#define BTN1 PD6
+#define BTN2 PD2
 
-#define OUT      1
-#define IN       0
+void initBTNs();
 
-#define HIGH     1
-#define LOW      0
-
-#define ON       1
-#define OFF      0
-
-#define Button0 PB0
-#define Button1 PD6
-#define Button2 PD2
-
-void initButtons();
-int is_pressed(int buttonNum);
+char isPressedA(char pinNUM);
+char isPressedB(char pinNUM);
+char isPressedC(char pinNUM);
+char isPressedD(char pinNUM);
 
 #endif	/* BUTTONS_H */

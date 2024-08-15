@@ -1,23 +1,25 @@
 
-#include<avr/io.h>
+#include <avr/io.h>
+#include "DIO.h"
+
 #include "buttons.h"
 
-void initButtons(){
-    // set the pins corresponding to the buttons as inputs
-    setPORTD_DIR_VAL((1<<Button1) | (1<<Button2), IN);
-    setPINB(Button0, IN);
+void initBTNs(){
+    
+    setPINB_DIR(BTN0, IN);
+    setPIND_DIR(BTN1, IN);
+    setPIND_DIR(BTN2, IN);
+    
 }
-
-int is_pressed(int buttonNum){
-    switch(buttonNum){
-        case Button0:
-            return readPINB(Button0);
-            break;
-        case Button1:
-            return readPIND(Button1);
-            break;
-        case Button2:
-            return readPIND(Button2);
-            break;
-    }
+char isPressedA(char pinNUM){
+    return readPINA(pinNUM);
+}
+char isPressedB(char pinNUM){
+    return readPINB(pinNUM);
+}
+char isPressedC(char pinNUM){
+    return readPINC(pinNUM);
+}
+char isPressedD(char pinNUM){
+    return readPIND(pinNUM);
 }

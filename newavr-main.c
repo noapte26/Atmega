@@ -7,7 +7,7 @@
 
 
 #include <avr/io.h>
-
+#include<util/delay.h>
 
 #include <avr/io.h>
 #include <xc.h>
@@ -15,8 +15,11 @@
 #include "DIO.h"
 #include "leds.h"
 #include "buttons.h"
+#include "kpad.h"
+#include"LCD.h"
+#include"output_objects.h"
 
-
+#define F_CPU 16000000UL
 
 
 
@@ -26,17 +29,26 @@ int main(void) {
 
 
     initLEDs();
-    initButtons();
-    LED_ON(LED2);
-    
-    /*while (1) {
-        if(is_pressed(Button0)){
-        LED_ON(LED0);
-    }
-        else{
-        LED_OFF(LED0);
-    }
+    initBTNs();
+    setBuzzerDir();
+  
+ 
+    /*init_LCD();
+    _delay_ms(50);
+    LCD_DATA('A');
+    _delay_ms(1000);*/
+    //LED_ON(LED1);
+    void initKey();
+    while (1) {
+       //readKey();
+        void checkPassword();
 
-    }*/
+    }
 }
-
+    
+        /*LED_ON(LED0);
+        LED_OFF(LED1);
+_      _delay_ms(1000);
+        LED_OFF(LED0);
+        LED_ON(LED0);
+_       _delay_ms(1000);*/
