@@ -12,6 +12,9 @@
       <itemPath>LCD4BIT.h</itemPath>
       <itemPath>output_objects.h</itemPath>
       <itemPath>check_password.h</itemPath>
+      <itemPath>myINT0.h</itemPath>
+      <itemPath>myINT1.h</itemPath>
+      <itemPath>myINT2.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -34,6 +37,9 @@
       <itemPath>LCD4BIT.c</itemPath>
       <itemPath>output_devices.c</itemPath>
       <itemPath>check_password.c</itemPath>
+      <itemPath>myINT0.c</itemPath>
+      <itemPath>myINT1.c</itemPath>
+      <itemPath>myINT2.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>

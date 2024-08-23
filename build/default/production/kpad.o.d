@@ -12,10 +12,10 @@ build/default/production/kpad.o.d build/default/production/kpad.o: kpad.c \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\common.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\fuse.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\lock.h DIO.h \
- kpad.h LEDs.h \
+ kpad.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\util\delay.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\util\delay_basic.h \
- c:\program\ files\microchip\xc8\v2.46\avr\avr\include\math.h LCD.h
+ c:\program\ files\microchip\xc8\v2.46\avr\avr\include\math.h
 
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\io.h:
 
@@ -47,12 +47,8 @@ DIO.h:
 
 kpad.h:
 
-LEDs.h:
-
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\util\delay.h:
 
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\util\delay_basic.h:
 
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\math.h:
-
-LCD.h:

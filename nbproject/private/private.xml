@@ -3,18 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/LEDs.h</file>
-            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/buttons.h</file>
-            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/buttons.c</file>
             <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/LCD.c</file>
-            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/output_devices.c</file>
-            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/check_password.c</file>
-            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/newavr-main.c</file>
-            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/check_password.h</file>
-            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/output_objects.h</file>
-            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/DIO.c</file>
             <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/LCD.h</file>
             <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/kpad.c</file>
+            <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/newavr-main.c</file>
             <file>file:/C:/Users/hebai/MPLABXProjects/the_bright_moon.X/kpad.h</file>
         </group>
     </open-files>
